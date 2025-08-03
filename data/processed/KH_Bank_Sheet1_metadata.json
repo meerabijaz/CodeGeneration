@@ -1,0 +1,287 @@
+{
+  "column_types": {
+    "GroupHeader.MessageIdentification": {
+      "type": "string",
+      "confidence": 1.0,
+      "format": "reference_code"
+    },
+    "GroupHeader.CreationDateTime": {
+      "type": "date",
+      "confidence": 0.9,
+      "format": "auto-detected"
+    },
+    "Statement.Identification": {
+      "type": "string",
+      "confidence": 0.8,
+      "format": "identifier"
+    },
+    "Statement.LegalSequenceNumber": {
+      "type": "date",
+      "confidence": 0.9,
+      "format": "auto-detected"
+    },
+    "Statement.CreationDateTime": {
+      "type": "date",
+      "confidence": 0.9,
+      "format": "auto-detected"
+    },
+    "Statement.FromToDate.FromDateTime": {
+      "type": "date",
+      "confidence": 0.9,
+      "format": "auto-detected"
+    },
+    "Statement.FromToDate.ToDateTime": {
+      "type": "date",
+      "confidence": 0.9,
+      "format": "auto-detected"
+    },
+    "Statement.Account.Identification.IBAN": {
+      "type": "string",
+      "confidence": 1.0,
+      "format": "reference_code"
+    },
+    "Statement.Account.Type.Proprietary": {
+      "type": "string",
+      "confidence": 0.9,
+      "format": "categorical"
+    },
+    "Statement.Account.Currency": {
+      "type": "string",
+      "confidence": 0.9,
+      "format": "categorical"
+    },
+    "Statement.Account.Name": {
+      "type": "string",
+      "confidence": 0.9,
+      "format": "categorical"
+    },
+    "Statement.TransactionsSummary.TotalCreditEntries.Sum": {
+      "type": "date",
+      "confidence": 0.9,
+      "format": "auto-detected"
+    },
+    "Statement.TransactionsSummary.TotalDebitEntries.Sum": {
+      "type": "date",
+      "confidence": 0.9,
+      "format": "auto-detected"
+    },
+    "Statement.Entry.EntryReference": {
+      "type": "date",
+      "confidence": 0.9,
+      "format": "auto-detected"
+    },
+    "Statement.Entry.Amount.Value": {
+      "type": "date",
+      "confidence": 0.9,
+      "format": "auto-detected"
+    },
+    "Statement.Entry.Amount.Currency": {
+      "type": "string",
+      "confidence": 0.9,
+      "format": "categorical"
+    },
+    "Statement.Entry.CreditDebitIndicator": {
+      "type": "string",
+      "confidence": 0.9,
+      "format": "categorical"
+    },
+    "Statement.Entry.BookingDate.Date": {
+      "type": "date",
+      "confidence": 0.9,
+      "format": "auto-detected"
+    },
+    "Statement.Entry.ValueDate.Date": {
+      "type": "date",
+      "confidence": 0.9,
+      "format": "auto-detected"
+    },
+    "Statement.Entry.AccountServicerReference": {
+      "type": "string",
+      "confidence": 0.84,
+      "format": "reference_code"
+    },
+    "Statement.Entry.BankTransactionCode.Domain.Code": {
+      "type": "string",
+      "confidence": 0.9,
+      "format": "categorical"
+    },
+    "Statement.Entry.BankTransactionCode.Domain.Family.Code": {
+      "type": "string",
+      "confidence": 0.9,
+      "format": "categorical"
+    },
+    "Statement.Entry.BankTransactionCode.Domain.Family.SubFamilyCode": {
+      "type": "string",
+      "confidence": 0.8,
+      "format": "identifier"
+    },
+    "Statement.Entry.BankTransactionCode.Proprietary.Code": {
+      "type": "date",
+      "confidence": 0.9,
+      "format": "auto-detected"
+    },
+    "Statement.Entry.EntryDetails.TransactionDetails.References.PaymentInformationIdentification": {
+      "type": "string",
+      "confidence": 1.0,
+      "format": "reference_code"
+    },
+    "Statement.Entry.EntryDetails.TransactionDetails.References.EndToEndIdentification": {
+      "type": "string",
+      "confidence": 0.8,
+      "format": "identifier"
+    },
+    "Statement.Entry.EntryDetails.TransactionDetails.References.ClearingSystemReference": {
+      "type": "string",
+      "confidence": 0.91,
+      "format": "reference_code"
+    },
+    "Statement.Entry.EntryDetails.TransactionDetails.AmountDetails.InstructedAmount.Amount.Value": {
+      "type": "date",
+      "confidence": 0.9,
+      "format": "auto-detected"
+    },
+    "Statement.Entry.EntryDetails.TransactionDetails.AmountDetails.TransactionAmount.Amount.Value": {
+      "type": "date",
+      "confidence": 0.9,
+      "format": "auto-detected"
+    },
+    "Statement.Entry.EntryDetails.TransactionDetails.AmountDetails.TransactionAmount.Amount.Currency": {
+      "type": "string",
+      "confidence": 0.9,
+      "format": "categorical"
+    },
+    "Statement.Entry.EntryDetails.TransactionDetails.Charges.Amount.Value": {
+      "type": "date",
+      "confidence": 0.9,
+      "format": "auto-detected"
+    },
+    "Statement.Entry.EntryDetails.TransactionDetails.Charges.CreditDebitIndicator": {
+      "type": "string",
+      "confidence": 0.9,
+      "format": "categorical"
+    },
+    "Statement.Entry.EntryDetails.TransactionDetails.Charges.Rate": {
+      "type": "date",
+      "confidence": 0.9,
+      "format": "auto-detected"
+    },
+    "Statement.Entry.EntryDetails.TransactionDetails.Charges.Bearer": {
+      "type": "string",
+      "confidence": 0.9,
+      "format": "categorical"
+    },
+    "Statement.Entry.EntryDetails.TransactionDetails.RelatedParties.Debtor.Name": {
+      "type": "string",
+      "confidence": 0.8,
+      "format": "name_or_address"
+    },
+    "Statement.Entry.EntryDetails.TransactionDetails.RelatedParties.Debtor.PostalAddress.AddressType": {
+      "type": "string",
+      "confidence": 0.9,
+      "format": "categorical"
+    },
+    "Statement.Entry.EntryDetails.TransactionDetails.RelatedParties.Debtor.PostalAddress.Country": {
+      "type": "string",
+      "confidence": 0.8,
+      "format": "identifier"
+    },
+    "Statement.Entry.EntryDetails.TransactionDetails.RelatedParties.Debtor.Identification.OrganisationIdentification.BICOrBEI": {
+      "type": "string",
+      "confidence": 1.0,
+      "format": "reference_code"
+    },
+    "Statement.Entry.EntryDetails.TransactionDetails.RelatedParties.Debtor.Identification.OrganisationIdentification.Other.Identification": {
+      "type": "string",
+      "confidence": 1.0,
+      "format": "reference_code"
+    },
+    "Statement.Entry.EntryDetails.TransactionDetails.RelatedParties.Debtor.Identification.OrganisationIdentification.Other.SchemeName.Proprietary": {
+      "type": "string",
+      "confidence": 1.0,
+      "format": "reference_code"
+    },
+    "Statement.Entry.EntryDetails.TransactionDetails.RelatedParties.Debtor.Identification.OrganisationIdentification.Other.Issuer": {
+      "type": "string",
+      "confidence": 0.8,
+      "format": "identifier"
+    },
+    "Statement.Entry.EntryDetails.TransactionDetails.RelatedParties.DebtorAccount.Identification.IBAN": {
+      "type": "string",
+      "confidence": 1.0,
+      "format": "reference_code"
+    },
+    "Statement.Entry.EntryDetails.TransactionDetails.RelatedParties.DebtorAccount.Identification.Other.Identification": {
+      "type": "string",
+      "confidence": 0.8,
+      "format": "identifier"
+    },
+    "Statement.Entry.EntryDetails.TransactionDetails.RelatedParties.UltimateDebtor.Name": {
+      "type": "string",
+      "confidence": 0.8,
+      "format": "identifier"
+    },
+    "Statement.Entry.EntryDetails.TransactionDetails.RelatedParties.Creditor.Name": {
+      "type": "string",
+      "confidence": 0.8,
+      "format": "identifier"
+    },
+    "Statement.Entry.EntryDetails.TransactionDetails.RelatedParties.Creditor.PostalAddress.AddressType": {
+      "type": "string",
+      "confidence": 0.9,
+      "format": "categorical"
+    },
+    "Statement.Entry.EntryDetails.TransactionDetails.RelatedParties.Creditor.PostalAddress.Country": {
+      "type": "string",
+      "confidence": 0.8,
+      "format": "identifier"
+    },
+    "Statement.Entry.EntryDetails.TransactionDetails.RelatedParties.Creditor.Identification.OrganisationIdentification.Other.Issuer": {
+      "type": "string",
+      "confidence": 0.8,
+      "format": "identifier"
+    },
+    "Statement.Entry.EntryDetails.TransactionDetails.RelatedParties.CreditorAccount.Identification.IBAN": {
+      "type": "string",
+      "confidence": 1.0,
+      "format": "reference_code"
+    },
+    "Statement.Entry.EntryDetails.TransactionDetails.RelatedParties.CreditorAccount.Identification.Other.Identification": {
+      "type": "date",
+      "confidence": 0.9,
+      "format": "auto-detected"
+    },
+    "Statement.Entry.EntryDetails.TransactionDetails.RelatedParties.UltimateCreditor.Name": {
+      "type": "string",
+      "confidence": 0.8,
+      "format": "identifier"
+    },
+    "Statement.Entry.EntryDetails.TransactionDetails.RelatedAgents.DebtorAgent.FinancialInstitutionIdentification.BIC": {
+      "type": "string",
+      "confidence": 1.0,
+      "format": "reference_code"
+    },
+    "Statement.Entry.EntryDetails.TransactionDetails.RelatedAgents.DebtorAgent.BranchIdentification.Name": {
+      "type": "string",
+      "confidence": 0.8,
+      "format": "identifier"
+    },
+    "Statement.Entry.EntryDetails.TransactionDetails.RelatedAgents.CreditorAgent.FinancialInstitutionIdentification.BIC": {
+      "type": "string",
+      "confidence": 1.0,
+      "format": "reference_code"
+    },
+    "Statement.Entry.EntryDetails.TransactionDetails.RelatedAgents.CreditorAgent.BranchIdentification.Name": {
+      "type": "string",
+      "confidence": 0.8,
+      "format": "identifier"
+    },
+    "Statement.Entry.EntryDetails.TransactionDetails.AdditionalTransactionInformation": {
+      "type": "string",
+      "confidence": 0.8,
+      "format": "name_or_address"
+    }
+  },
+  "created_at": "2025-08-03T16:38:42.914753",
+  "row_count": 1221,
+  "column_count": 73
+}

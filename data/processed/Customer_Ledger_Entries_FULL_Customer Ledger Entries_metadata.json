@@ -1,0 +1,227 @@
+{
+  "column_types": {
+    "Posting Date": {
+      "type": "date",
+      "confidence": 1.0,
+      "format": "datetime64"
+    },
+    "VAT Date": {
+      "type": "date",
+      "confidence": 1.0,
+      "format": "datetime64"
+    },
+    "Document Type": {
+      "type": "string",
+      "confidence": 0.83,
+      "format": "reference_code"
+    },
+    "Include Sales Advance Payment Use": {
+      "type": "number",
+      "confidence": 1.0,
+      "format": "numeric"
+    },
+    "Advance Doc. Type": {
+      "type": "string",
+      "confidence": 0.9,
+      "format": "categorical"
+    },
+    "Document No.": {
+      "type": "string",
+      "confidence": 0.8,
+      "format": "identifier"
+    },
+    "Customer No.": {
+      "type": "string",
+      "confidence": 1.0,
+      "format": "reference_code"
+    },
+    "Customer Name": {
+      "type": "string",
+      "confidence": 0.8,
+      "format": "identifier"
+    },
+    "Description": {
+      "type": "string",
+      "confidence": 0.8,
+      "format": "identifier"
+    },
+    "Open": {
+      "type": "number",
+      "confidence": 1.0,
+      "format": "numeric"
+    },
+    "Cost Center": {
+      "type": "string",
+      "confidence": 0.9,
+      "format": "categorical"
+    },
+    "Product": {
+      "type": "string",
+      "confidence": 0.8,
+      "format": "identifier"
+    },
+    "Currency Code": {
+      "type": "string",
+      "confidence": 0.9,
+      "format": "categorical"
+    },
+    "Original Amount": {
+      "type": "date",
+      "confidence": 0.9,
+      "format": "auto-detected"
+    },
+    "Amount": {
+      "type": "date",
+      "confidence": 0.9,
+      "format": "auto-detected"
+    },
+    "Amount (LCY)": {
+      "type": "date",
+      "confidence": 0.9,
+      "format": "auto-detected"
+    },
+    "Remaining Amount": {
+      "type": "date",
+      "confidence": 0.9,
+      "format": "auto-detected"
+    },
+    "Available Advance": {
+      "type": "date",
+      "confidence": 0.9,
+      "format": "auto-detected"
+    },
+    "Remaining Amt. (LCY)": {
+      "type": "date",
+      "confidence": 0.9,
+      "format": "auto-detected"
+    },
+    "Sales (LCY)": {
+      "type": "date",
+      "confidence": 0.9,
+      "format": "auto-detected"
+    },
+    "Due Date": {
+      "type": "date",
+      "confidence": 1.0,
+      "format": "datetime64"
+    },
+    "Pmt. Discount Date": {
+      "type": "date",
+      "confidence": 1.0,
+      "format": "datetime64"
+    },
+    "Pmt. Disc. Tolerance Date": {
+      "type": "date",
+      "confidence": 1.0,
+      "format": "datetime64"
+    },
+    "Original Pmt. Disc. Possible": {
+      "type": "date",
+      "confidence": 0.9,
+      "format": "auto-detected"
+    },
+    "Remaining Pmt. Disc. Possible": {
+      "type": "date",
+      "confidence": 0.9,
+      "format": "auto-detected"
+    },
+    "Max. Payment Tolerance": {
+      "type": "date",
+      "confidence": 0.9,
+      "format": "auto-detected"
+    },
+    "Payment Method Code": {
+      "type": "string",
+      "confidence": 0.9,
+      "format": "categorical"
+    },
+    "Company Bank Account No.": {
+      "type": "string",
+      "confidence": 0.9,
+      "format": "categorical"
+    },
+    "Partner Bank Account No.": {
+      "type": "date",
+      "confidence": 0.9,
+      "format": "auto-detected"
+    },
+    "On Hold": {
+      "type": "unknown",
+      "confidence": 0.0,
+      "format": null
+    },
+    "Entry No.": {
+      "type": "date",
+      "confidence": 0.9,
+      "format": "auto-detected"
+    },
+    "Exported to Payment File": {
+      "type": "number",
+      "confidence": 1.0,
+      "format": "numeric"
+    },
+    "Message to Recipient": {
+      "type": "unknown",
+      "confidence": 0.0,
+      "format": null
+    },
+    "Recipient Bank Account": {
+      "type": "date",
+      "confidence": 0.9,
+      "format": "auto-detected"
+    },
+    "Ledger Analytic": {
+      "type": "unknown",
+      "confidence": 0.0,
+      "format": null
+    },
+    "Item": {
+      "type": "string",
+      "confidence": 0.8,
+      "format": "identifier"
+    },
+    "Employee Code": {
+      "type": "unknown",
+      "confidence": 0.0,
+      "format": null
+    },
+    "Fixed Asset": {
+      "type": "unknown",
+      "confidence": 0.0,
+      "format": null
+    },
+    "Call_off Code": {
+      "type": "unknown",
+      "confidence": 0.0,
+      "format": null
+    },
+    "Counterparty": {
+      "type": "string",
+      "confidence": 1.0,
+      "format": "reference_code"
+    },
+    "M-B Transfer ID": {
+      "type": "unknown",
+      "confidence": 0.0,
+      "format": null
+    },
+    "M-B Applies-to ID": {
+      "type": "unknown",
+      "confidence": 0.0,
+      "format": null
+    },
+    "Order No.": {
+      "type": "string",
+      "confidence": 0.8,
+      "format": "identifier"
+    },
+    "Document Subtype": {
+      "type": "string",
+      "confidence": 0.8,
+      "format": "identifier"
+    }
+  },
+  "created_at": "2025-08-03T16:38:40.004702",
+  "row_count": 5505,
+  "column_count": 65
+}
