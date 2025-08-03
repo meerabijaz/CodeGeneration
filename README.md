@@ -15,7 +15,10 @@ This project provides tools for processing financial data from Excel files with 
 ## Installation
 
 1. Clone the repository
-2. Install the required dependencies:
+   
+   git clone https://github.com/meerabijaz/CodeGeneration.git
+
+3. Install the required dependencies:
 
 ```bash
 pip install -r requirements.txt
